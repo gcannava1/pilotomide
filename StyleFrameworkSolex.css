@@ -1,0 +1,965 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 85%;
+    min-width: 520px;
+    /*background: #FFFFFF;*/
+    /*background: #434346;*/
+}
+
+A:link {
+    text-decoration: none;
+    color: #3333cc;
+}
+
+A:visited {
+    text-decoration: none;
+    color: #333399;
+}
+
+A:active {
+    text-decoration: none;
+    color: #333399;
+}
+
+A:hover {
+    text-decoration: underline;
+    color: #3333cc;
+}
+
+label {
+    display: block;
+    padding: 0em;
+}
+
+fieldset {
+    padding: 0.2em;
+    border: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+legend {
+    color: #666666;
+}
+
+.waitIcon {
+    border: 1px solid transparent;
+    padding: 0.3em;
+}
+
+#toolbar {
+    padding: 4px 4px;
+}
+
+.btnLookups {
+    padding: 0.45em;
+    float: left; /*background: transparent url('Imagenes/lookup.png') no-repeat scroll;*/
+}
+
+input {
+    padding: 0.4em;
+}
+
+    input[disabled] {
+        background: #d1d1d4;
+        color: black;
+    }
+
+    input[type="radio"][disabled] {
+        background-color: transparent;
+    }
+div.message {
+    z-index: 1;
+    background-color: White;
+    padding-top: 4px;
+    padding-left: 1px;
+    background: transparent url('Imagenes/msgvalidator_arrow.gif') no-repeat scroll;
+    border-color: inherit;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+textarea.error {
+    border: 1px solid red;
+}
+
+textarea.code {
+    font-family: Courier;
+    font-size: 10px;
+}
+
+select.error {
+    border: 1px solid red;
+}
+
+.tooltipvalidateerror {
+    padding: 0px;
+    background-color: #F98282;
+}
+
+.TextoBanner
+{
+	font-family: verdana;
+	font-size: 0.8em;
+	text-align: left;
+	text-align: justify;
+	padding: 10, 5, 10, 5;
+}
+
+.ui-menu {
+    padding: 0em;
+    clear: none;
+    width: 15em;
+    z-index: 1000;
+}
+
+.ui-menu-item {
+    clear: none;
+    width: 15em;
+    height: auto;
+    z-index: 1000;
+    color: #000000;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    display: block;
+}
+
+.noclose .ui-dialog-titlebar-close
+{
+    display:none;
+}
+
+.ui-widget-overlay {
+    position: fixed;
+}
+
+.ui-resizable-helper {
+    border: 2px dotted #00F;
+}
+
+/* Cuando la grilla es ancha y se define scroll horizontal, en IE hay un problema al seleccionar filas 
+(aparecen espacios en blanco debajo de la tabla). Con este estilo se soluciona */
+div.dataTables_scrollBody {
+    min-height: 0%;
+}
+
+.mainmenuitem {
+    padding: 0.8em;
+    /*padding-bottom:0.6em;
+    padding-top:0.5em;*/
+    font-weight: normal;
+    color: white;
+    background: #667C91;
+    /*text-decoration:underline;*/
+}
+
+.mainmenuitem_selected {
+    padding: 0.8em;
+    font-weight: normal;
+    color: black;
+    background: #D4D3D0;
+    /*text-decoration:underline;*/
+}
+
+.backlog {
+    padding: 0.1em;
+}
+
+.bar {
+    height: 9px;
+    background: green;
+}
+
+.busy * {
+    cursor: wait !important;
+}
+
+div.infowindow-content {
+    min-width: 10em;
+    min-height: 7em;
+    background-color: white;
+}
+
+div.maximized {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    div.maximized iframe {
+        width: 100%;
+        height: 100%;
+        border: 0 none;
+    }
+
+.ui-dialog .appDialog {
+    overflow: hidden;
+    padding: 0.0em;
+}
+
+div.wall {
+    background-color: #434346;
+    opacity: 1;
+    filter: alpha(opacity=1);
+    -moz-opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 500;
+}
+
+.slxmainapptoolbar {
+    background-color: #3A5566; /*#2D2D30; #3A5566*/
+    top: 0px;
+    left: 0px;
+    height: 2.5em;
+    width: 99.4%;
+    color: White;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.slxmaindashboardtoolbar {
+    background-color: #3A5566; /*#2D2D30; #3A5566*/
+    top: 0px;
+    left: 0px;
+    height: 5em;
+    width: 100%;
+    color: White;
+    font-weight: bold;
+}
+
+.msgSaved {
+    font-weight: normal;
+    padding: 0.4em;
+    width: 10em;
+}
+
+.slxloginbody {
+    background-color: #ffffff;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #999;
+}
+
+/*Para cambiar el color de fondo*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+/*Para cambiar el color de texto*/
+input:-webkit-autofill {
+    -webkit-text-fill-color: #000;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #999;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #999;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #999;
+}
+
+.regTable_registry td {
+    border-style: none !important;
+}
+
+.pdBienvenida {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.pdEvidencia {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.pdTitulo1 {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.pdSubTitulo1 {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.4em;
+    font-style: italic;
+    padding-bottom:10px;
+}
+
+.pdTitulo2 {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.pdTitulo3 {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.pdTituloBv {
+    font-family: segoe ui, Arial, Helvetica, sans-serif;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+.pdTextoBv {
+    font-family: segoe ui, Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    line-height: 1.1em;
+}
+
+
+.pdTituloHome {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.pdTexto1 {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.3em;
+    /*font-weight: bold;*/
+    color: #999;
+}
+.pdTextoBrowser {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1em;
+    /*font-weight: bold;*/
+    color: #999;
+}
+
+.pdFondoT4 {
+    border: 1px solid #dfd9c3;
+    background-color: #b9cbea;
+    border-radius: 5px;
+    font-family: segoe ui,Arial,sans-serif;
+}
+
+.pdFondoT1 {
+    border: 1px solid #dfd9c3;
+    background-color: #b9cbea;
+    border-radius: 5px;
+    font-family: segoe ui,Arial,sans-serif;
+}
+
+.pdFondoT2 {
+    border: 1px solid #dfd9c3;
+    background-color: #b9cbea;
+    border-radius: 5px;
+    font-family: segoe ui,Arial,sans-serif;
+}
+
+.pdFondoT3 {
+    border: 1px solid #dfd9c3;
+    background-color: #b9cbea;
+    border-radius: 5px;
+    font-family: segoe ui,Arial,sans-serif;
+}
+
+.pdFondoT5 {
+    border: 1px solid #dfd9c3;
+    background-color: #b9cbea;
+    border-radius: 5px;
+    font-family: segoe ui,Arial,sans-serif;
+}
+
+.pdFondoAE {
+    border: 1px solid #dfd9c3;
+    background-color: #FDD9C3;
+    border-radius: 5px;
+    font-family: segoe ui,Arial,sans-serif;
+    /*background-color:#FDD9C3"*/
+}
+
+.pdAyudaTitulo {
+    
+    font-size: 1.7em;
+    font-family: segoe ui,Arial,sans-serif;
+    color:green;
+}
+
+.pdAyudaModulo {
+    
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: segoe ui,Arial,sans-serif;
+}
+
+.pdAyudaAplic {
+    
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2e59cc;
+}
+
+
+.BotonLoginON {
+    border-width: 0px;
+    color: white;
+    background: #1fa0e8;
+    border-color: black;
+    font-size: 1.3em;
+    padding: .0em .0em;
+}
+
+.BotonLoginOFF {
+    border-width: 0px;
+    color: white;
+    background: #F9F;
+    border-color: black;
+    font-size: 1.3em;
+    padding: .0em .0em;
+}
+
+.PortadaAE {
+    border-width: 0px;
+    color: white;
+    background: #F9F;
+    border-color: black;
+    font-size: 1.7em;
+    font-family: Segoe UI;
+}
+
+.PortadaPF {
+    border-width: 0px;
+    color: white;
+    background: #F9F;
+    border-color: black;
+    font-size: 1.7em;
+    font-family: Segoe UI;
+    padding: .0em .0em;
+}
+
+.BotonPortadaAE2 {
+    border-width: 2px;
+    color: black;
+    background: #F0E4B0;
+    border-color: #EDCE7C;
+    font-size: 1.3em;
+    font-family: Segoe UI;
+    padding: .0em .0em;
+    border-radius: 0px;
+}
+
+.BotonPortadaPF2 {
+    border-width: 2px;
+    color: black;
+    background: #d4e6f2;
+    border-color: #2E7CBC;
+    font-size: 1.3em;
+    font-family: Segoe UI;
+    padding: .0em .0em;
+    border-radius: 0px;
+}
+
+.BotonAyuda {
+    border-width: 0px;
+    color: black;
+    background: #9ed850;
+    border-color: #9ed850;
+    font-size: 1.5em;
+    font-family: Segoe UI;
+    padding: .0em .0em;
+}
+
+
+.PortadaPF_Sub {
+    font-size: 0.6em;
+    font-family: Segoe UI;
+    font-weight: normal;
+}
+
+.TituloPregAE { /*color naranja 2017*//*color verde*/
+    color: white;
+    background-color: #ED7D31;/*#548235;*/
+    font-family: segoe ui,Arial,sans-serif;/*Segoe UI;*/
+    text-align: justify;
+    padding: 3px;
+    font-size: 1.05em;
+}
+.PreguntasAE {
+    font-family: segoe ui,Arial,sans-serif;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    color: white;
+    background: #ED7D31;
+    padding: 0px 3px 3px 3px;
+    font-size: 1.2em;
+}
+
+.DetallePregAE { /*color naranja BotonAE*/
+    font-family: segoe ui,Arial,sans-serif;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    color: black;
+    vertical-align: middle;
+    background-color: #FCECE8;
+    padding: 3px;
+    font-size: 1.1em;
+}
+.PreguntasAE_Down {
+    font-family: segoe ui,Arial,sans-serif;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    color: white;
+    background: #ED7D31;
+    padding: 3px 3px 6px 3px;
+    font-size: 1.1em;
+}
+.PreguntasAE_Down2 {
+    font-family: segoe ui,Arial,sans-serif;
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    background: #ED7D31;
+    padding: 0px 3px 0px 3px;
+    font-size: 1.1em;
+}
+
+.DropDown1 {
+    background: #ED7D31;
+}
+.DropDown2 {
+    background: red;
+}
+
+.ReflexionAE_Fondo {
+    font-family: segoe ui,Arial,sans-serif;
+    background-color: rgba(212, 230, 242, 1);
+    font-size: 1.02em;
+    text-align: justify;
+    padding : 15px;
+}
+.ReflexionAE_SubPreg {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.1em;/*1em;*/
+    padding-bottom: 0.95em;
+}
+.PregCriterioAE {
+    font-family: segoe ui,Arial,sans-serif;
+    font-size: 1.1em;/*1em;*/
+}
+.DetallePregAE_SubTitulo {
+    font-family: segoe ui,Arial,sans-serif;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.05em;/*1.1em;*/
+}
+.DetallePregAE_Radio {
+    font-family: segoe ui,Arial,sans-serif;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.1em;
+    width: 75px;
+    text-align: center;
+}
+.ItemPregAE_SubPreg {
+    font-family: segoe ui,Arial,sans-serif;
+    border-top :1px solid silver;
+    border-bottom  :1px solid silver;
+    background-color: rgb(246, 246, 246);
+    font-size: 0.95em;/*1.05em;*/
+    padding : 5px;
+    width: 230px;
+}
+.DetallePregAE_SubPreg {
+    font-family: segoe ui,Arial,sans-serif;
+    border-top :1px solid silver;
+    border-bottom  :1px solid silver;
+    background-color: rgb(246, 246, 246);
+    font-size: 0.95em;
+    text-align: justify;
+}
+
+.TextoReferenciaAE { /*color naranja BotonAE*/
+    font-size: 0.8em;
+}
+
+.EspaciosPreg {
+    padding : 3em;
+}
+
+.AE_Tabla {
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    border-collapse: collapse;
+}
+
+.TituloRubricaAE { /*color naranja 2017*//*color amarillo*/
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    font-family: segoe ui,Arial,sans-serif;/*Segoe UI;*/
+    background-color: #ED7D31;/*#FFD966;*/
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+.RubricaAE { /*color Rosado*/
+    border-right: white 1px solid;
+    border-top: white 1px solid;
+    border-left: white 1px solid;
+    border-bottom: white 1px solid;
+    font-family: segoe ui,Arial,sans-serif;/*Segoe UI;*/
+    vertical-align: top;
+    background-color: #FCECE8;
+    padding: 10px;/*3px;*/
+    font-size: 0.95em;
+}
+
+
+.PortadaSeleccion {
+    color: white;
+    background: #283e7a;
+}
+
+.BotonAdjunto {
+    border-width: 3px;
+    color: black;
+    background: #c3c3c3;
+    border-color: #e9e5e5;
+    font-size: 1.5em;
+    font-family: Segoe UI;
+    padding: .0em .0em;
+    border-radius: 15px;
+}
+
+.TituloPreg {
+    /*height: 2em;*/
+    vertical-align: bottom;
+}
+
+.TituloPregG {
+    font-size: 1.3em;
+}
+.TituloPregG_AE {
+    font-size: 1.3em;   
+    padding: 1.5em;
+}
+
+.me-ui-button-text {
+    padding: .1em .1em;
+}
+
+.Inputheight {
+    height: 15px;
+    padding: 2px;
+}
+
+/*RBORLONE 05-04-2016 Tabla de resultado con los documentos.*/
+.ResultadosTabla {
+    border-collapse: collapse;
+}
+
+.ResultadoEncabezado {
+    border-right: gray 1px solid;
+    border-top: gray 1px solid;
+    font-weight: bold;
+    border-left: gray 1px solid;
+    border-bottom: gray 1px solid;
+    background-color: #667c91;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+.ResultadoFilaNormal {
+    background-color: #e8eef8;
+    font-weight: normal;
+}
+
+.ResultadoDetalle {
+    border-right: gray 1px solid;
+    border-top: gray 1px solid;
+    border-left: gray 1px solid;
+    border-bottom: gray 1px solid;
+    padding: 3px;
+}
+
+/*TABLA AVANCE PORTAFOLIO **************************************************************/
+.TablaAvancePF table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #000000;
+}
+
+.TablaAvancePF td {
+    background-color: #B8CCE4;
+    border: 1px solid #000000;
+    border-width: 1px 1px 1px 1px;
+    text-align: left;
+    padding: 7px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    color: #000000;
+}
+
+.TablaAvancePF tr:first-child td {
+    background-color: #BFBFBF;
+    border: 1px solid #000000;
+    text-align: center;
+    border-width: 0px 0px 1px 1px;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #000000;
+}
+/*******************************/
+.popupAyudaPF {
+        position: relative;
+        display:inline;
+}
+
+    .popupAyudaPF:hover:after {
+        content: attr(data-title);
+        top:15px;
+        left:25px;
+        height:auto;
+        width:210px;
+        position: absolute;
+        font-style: italic;
+        font-size:13px;
+        background-color:white;
+        color: black;
+        border-radius: 5px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        justify-content:center;
+        border:1px solid black;
+        padding:4px;
+        z-index:1;
+}
+
+.popupAyuda {
+        position: relative;
+        display:inline;
+}
+    .popupAyuda:hover:after {
+        content: attr(data-title);
+        top:15px;
+        left:25px;
+        height:auto;
+        width:300px;
+        position: absolute;
+        font-style: italic;
+        font-size:13px;
+        background-color:white;
+        color: black;
+        border-radius: 5px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        justify-content:center;
+        border:1px solid black;
+        padding:4px;
+        z-index:1;
+}
+    .popupAyudaReflex {
+        position: relative;
+        /*display: block;*/
+}
+    .popupAyudaReflex:hover:after {
+        content: attr(data-title);
+        top:10px;
+        left:25px;
+        height:auto;
+        width:600px;
+        position: absolute;
+        font-style: italic;
+        font-size:13px;
+        background:white;
+        color: black;
+        border-radius: 5px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        justify-content:center;
+        border:1px solid black;
+        padding:4px;
+        z-index:1;
+    }
+    .popupAyudaIndicador {
+        position: relative;
+        /*display: block;*/
+}
+    .popupAyudaIndicador:hover:after  {        
+        content: attr(data-title);
+        top:20px;
+        left:25px;
+        height:auto;
+        width:300px;
+        position: absolute;
+        font-style: italic;
+        font-size:13px;
+        background-color:white;
+        color: black;
+        border-radius: 5px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        justify-content:center;
+        border:1px solid black;
+        padding:4px;
+        z-index:1;
+}
+     .popupAyudaIndicador2 {
+        position: relative;
+        /*display: block;*/
+}
+    .popupAyudaIndicador2:hover:after  {        
+        content: attr(data-title);       
+        top:20px;
+        left:-250px;
+        height:auto;
+        width:300px;
+        position:absolute;
+        font-style: italic;
+        font-size:13px;
+        background-color:white;
+        color: black;
+        border-radius: 5px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        justify-content:center;
+        border:1px solid black;
+        padding:4px;
+        z-index:1;
+}
+    /*******************************************************************************/
+    /*******TABLA AVANCE AUTO EVALUACION AÑO 2017    ANDRES ZAMORANO  30-05-2017****/
+.TablaAvanceAE {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+    .TablaAvanceAE table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .TablaAvanceAE tr:nth-child(odd) {
+        background-color: #FDE9D9;
+    }
+
+    .TablaAvanceAE tr:nth-child(even) {
+        background-color: #FDE9D9;
+    }
+
+    .TablaAvanceAE td {
+        vertical-align: middle;
+        border: 1px solid #000000;
+        border-width: 1px 1px 1px 1px;
+
+        padding: 7px;
+        font-size: 14px;
+        font-family: 'Segoe UI';
+        font-weight: normal;
+        color: #000000;
+    }
+
+
+
+
+    .TablaAvanceAE tr:first-child td {
+        background-color: #FABF8F;
+     
+        text-align: center;
+
+        font-size: 14px;
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .sinEvaluacionAvanceAE
+    {
+        background-color: #FABF8F;
+        padding:10px;
+         font-size: 14px;
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .anchoIzq_TdAvanceAE 
+    {
+        width:25%;
+    }
+
+    .anchoDer_TdAvanceAE
+    {
+        width:15%;
+    }
+
+    .tituloDominio_PregAvanceAE {
+        background-color:#FABF8F; 
+    }
+    .tituloDominioAvanceAE {
+        background-color:#FABF8F; 
+        text-align:center;
+
+    }
+    .td_IndicadoresIncompletosAvanceAE{
+        background-color:Yellow; 
+        color:black;
+    }
+
+    .td_SinRespuestaAvanceAE {
+        background-color: #FF0000;
+        color: white;
+    }
+
+    .estiloBanner
+    {
+        width: 400px; 
+        height: 120px; 
+        border: solid; 
+        border-width: 2px;
+        padding:3px;
+        border-color: silver; 
+        background-color: #FFFF99;
+        border-radius: 14px 14px 14px 14px;
+        -moz-border-radius: 14px 14px 14px 14px;
+        -webkit-border-radius: 14px 14px 14px 14px;
+        border: 1px solid #FFC800;
+    }
+    /*******************************************************************************/
+textarea {
+    resize:none;
+}

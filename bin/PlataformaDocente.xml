@@ -1,0 +1,4795 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PlataformaDocente
+</name>
+</assembly>
+<members>
+<member name="M:PlataformaDocente.Autoevaluacion.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Evento inicial.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Autoevaluacion.CargarRegistro">
+	<summary>
+ Metodo CargarRegistro permite cargar los datos en pantalla.
+ </summary>
+	<returns>Retorna un verdadero o Falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Autoevaluacion.SaveData(System.String,Solex.Base.Comun.NameValue[])">
+	<summary>
+ WebMethod que permite guardar la información en el servidor.
+ </summary>
+	<param name="mode">Recibe el modo.</param>
+	<param name="formVars">Recibe las variables del formulario.</param>
+	<returns>Retorna un JSON con la respuesta.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Fichas.DescargaDocumento(System.String)">
+	<summary>
+ WebMethod que permite descargar un documento por su id de documento.
+ </summary>
+	<param name="idDocumento">Recibe el id de documento.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Fichas.EliminarDocumento(System.String,System.String,System.String,System.String)">
+	<summary>
+ Metodo que permite eliminar un documento.
+ </summary>
+	<param name="idDocumento">Recibe el id de documento.</param>
+	<returns>Retorna Json con la confirmacion.</returns>
+	<remarks></remarks>
+</member><member name="F:PlataformaDocente.Login.frmLogin">
+	<summary>
+Control frmLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.loginUser">
+	<summary>
+Control loginUser.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.loginPassword">
+	<summary>
+Control loginPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.btnLogin">
+	<summary>
+Control btnLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.loginLabel">
+	<summary>
+Control loginLabel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.tr_banner">
+	<summary>
+Control tr_banner.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.banner_login">
+	<summary>
+Control banner_login.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.loginVersion">
+	<summary>
+Control loginVersion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.txtLoginRecupera">
+	<summary>
+Control txtLoginRecupera.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Login.rut_valido">
+	<summary>
+Control rut_valido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.desempeno">
+	<summary>
+Control desempeno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.divDetalle">
+	<summary>
+Control divDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_T3_CARACT_ALUMNOS">
+	<summary>
+Control rec_T3_CARACT_ALUMNOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_T3_DIFIC_ALUMNOS">
+	<summary>
+Control rec_T3_DIFIC_ALUMNOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.divDetalleTP">
+	<summary>
+Control divDetalleTP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_T3_TP_CARACT_ALUMNOS">
+	<summary>
+Control rec_T3_TP_CARACT_ALUMNOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_T3_TP_DIFIC_ALUMNOS">
+	<summary>
+Control rec_T3_TP_DIFIC_ALUMNOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_ID_PERIODO">
+	<summary>
+Control rec_ID_PERIODO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_RUT_DOCENTE">
+	<summary>
+Control rec_RUT_DOCENTE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_ID_EVALUACION">
+	<summary>
+Control rec_ID_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.boRegistryMode">
+	<summary>
+Control boRegistryMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.MyRowstamp">
+	<summary>
+Control MyRowstamp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_NOMBRE_TABLA">
+	<summary>
+Control rec_NOMBRE_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.rec_ID_TABLA">
+	<summary>
+Control rec_ID_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.DesEsp">
+	<summary>
+Control DesEsp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.DesEspWidth">
+	<summary>
+Control DesEspWidth.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.DesEspHeight">
+	<summary>
+Control DesEspHeight.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.acceso">
+	<summary>
+Control acceso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea3.Cod_Nivel">
+	<summary>
+Control Cod_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:PlataformaDocente.Tarea4.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Evento inicial.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea4.MostrarDesempenoEsperado">
+	<summary>
+ Metodo que trae una imagen para mostrar en el desempeño esperado.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea4.CargarRegistro">
+	<summary>
+ Metodo CargarRegistro permite cargar los datos en pantalla.
+ </summary>
+	<returns>Retorna un verdadero o Falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea4.SaveData(System.String,Solex.Base.Comun.NameValue[])">
+	<summary>
+ WebMethod que permite guardar la información en el servidor.
+ </summary>
+	<param name="mode">Recibe el modo.</param>
+	<param name="formVars">Recibe las variables del formulario.</param>
+	<returns>Retorna un JSON con la respuesta.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea4.cargarTabla(System.String,System.Int32,System.String)">
+	<summary>
+ WebMethod que permite cargar la tabla con los datos.
+ </summary>
+	<returns>Retorna un JSon con la tabla.</returns>
+	<remarks></remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.formPrincipal">
+	<summary>
+Control formPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.imgPortada">
+	<summary>
+Control imgPortada.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.nombre">
+	<summary>
+Control nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.rut">
+	<summary>
+Control rut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.dv">
+	<summary>
+Control dv.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.nivel">
+	<summary>
+Control nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.NomEstablecimiento">
+	<summary>
+Control NomEstablecimiento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.rbdEstablecimiento">
+	<summary>
+Control rbdEstablecimiento.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.password">
+	<summary>
+Control password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.password_reingresado">
+	<summary>
+Control password_reingresado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.email">
+	<summary>
+Control email.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.email_reingresado">
+	<summary>
+Control email_reingresado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.numContac">
+	<summary>
+Control numContac.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.numContac2">
+	<summary>
+Control numContac2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.rdbHombre">
+	<summary>
+Control rdbHombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.rdbMujer">
+	<summary>
+Control rdbMujer.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.ANIO_NACIMIENTO">
+	<summary>
+Control ANIO_NACIMIENTO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.btnGrabarDown">
+	<summary>
+Control btnGrabarDown.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.MensajeError">
+	<summary>
+Control MensajeError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.pas">
+	<summary>
+Control pas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.primeraVez">
+	<summary>
+Control primeraVez.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.idEvaluacion">
+	<summary>
+Control idEvaluacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.DocentePrimeraVez.FechaNacDocente">
+	<summary>
+Control FechaNacDocente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:PlataformaDocente.Login.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Evento Inicial del formulario.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Login.btnLoginClick(System.Object,System.EventArgs)">
+	<summary>
+ Evento de Boton Login Click.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Login.validarLogin(Solex.Base.DataAccess.BOSET)">
+	<summary>
+ Metodo que permite validar el login del usuario.
+ </summary>
+	<param name="myBoSet">Recibe el Boset.</param>
+	<returns>Retorna un valor verdadero o falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Login.CalcularTipoAcceso(System.String,System.Int32)">
+	<summary>
+ Metodo que calcula el tipo de acceso a la aplicación (perfil)
+ </summary>
+	<param name="tf">Recibe el Formulario.</param>
+	<param name="ntf">Recibe el indice de Formulario.</param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea5.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Evento inicial.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea5.MostrarDesempenoEsperado">
+	<summary>
+ Metodo que trae una imagen para mostrar en el desempeño esperado.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea5.CargarRegistro">
+	<summary>
+ Metodo CargarRegistro permite cargar los datos en pantalla.
+ </summary>
+	<returns>Retorna un verdadero o Falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea5.SaveData(System.String,Solex.Base.Comun.NameValue[])">
+	<summary>
+ WebMethod que permite guardar la información en el servidor.
+ </summary>
+	<param name="mode">Recibe el modo.</param>
+	<param name="formVars">Recibe las variables del formulario.</param>
+	<returns>Retorna un JSON con la respuesta.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea5.cargarTabla(System.String,System.Int32,System.String)">
+	<summary>
+ WebMethod que permite cargar la tabla con los datos.
+ </summary>
+	<returns>Retorna un JSon con la tabla.</returns>
+	<remarks></remarks>
+</member><member name="F:PlataformaDocente.FileDownload.Head">
+	<summary>
+Control Head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.FileDownload.formBosetToFileDownload">
+	<summary>
+Control formBosetToFileDownload.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.Mostrar_Avance_PDF_AE">
+	<summary>
+Control Mostrar_Avance_PDF_AE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.TablaAvanceAE">
+	<summary>
+Control TablaAvanceAE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.Button1">
+	<summary>
+Control Button1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.Button2">
+	<summary>
+Control Button2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.btnGuardar2">
+	<summary>
+Control btnGuardar2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.btnImprimir2">
+	<summary>
+Control btnImprimir2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.Rut_Docente">
+	<summary>
+Control Rut_Docente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvanceAutoevaluacion.ano">
+	<summary>
+Control ano.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.desempeno">
+	<summary>
+Control desempeno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divDetalle">
+	<summary>
+Control divDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TIPO_EVALUACION_OPCION1">
+	<summary>
+Control rec_T2_TIPO_EVALUACION_OPCION1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TIPO_EVALUACION_OPCION2">
+	<summary>
+Control rec_T2_TIPO_EVALUACION_OPCION2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregA">
+	<summary>
+Control divPregA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_OBJ_EVALUACION">
+	<summary>
+Control rec_T2_OBJ_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregB1">
+	<summary>
+Control divPregB1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_ACTIVIDAD_EVALUACION">
+	<summary>
+Control rec_T2_ACTIVIDAD_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregB2">
+	<summary>
+Control divPregB2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.T2_PRUEBA_GUIA_TABLA">
+	<summary>
+Control T2_PRUEBA_GUIA_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregC1">
+	<summary>
+Control divPregC1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.T2A_PAUTA_TABLA">
+	<summary>
+Control T2A_PAUTA_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregC2">
+	<summary>
+Control divPregC2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.T2B_PAUTA_TABLA">
+	<summary>
+Control T2B_PAUTA_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregD1">
+	<summary>
+Control divPregD1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_INSTRUCCION">
+	<summary>
+Control rec_T2_INSTRUCCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregD">
+	<summary>
+Control divPregD.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_APDJE_LOGRADO">
+	<summary>
+Control rec_T2_APDJE_LOGRADO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_APDJE_NO_LOGRADO">
+	<summary>
+Control rec_T2_APDJE_NO_LOGRADO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divDetalleTP">
+	<summary>
+Control divDetalleTP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_TIPO_EVALUACION_OPCION1">
+	<summary>
+Control rec_T2_TP_TIPO_EVALUACION_OPCION1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_TIPO_EVALUACION_OPCION2">
+	<summary>
+Control rec_T2_TP_TIPO_EVALUACION_OPCION2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregATP">
+	<summary>
+Control divPregATP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_OBJ_EVALUACION">
+	<summary>
+Control rec_T2_TP_OBJ_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregB1TP">
+	<summary>
+Control divPregB1TP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_ACTIVIDAD_EVALUACION">
+	<summary>
+Control rec_T2_TP_ACTIVIDAD_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregB2TP">
+	<summary>
+Control divPregB2TP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.T2_TP_PRUEBA_GUIA_TABLA">
+	<summary>
+Control T2_TP_PRUEBA_GUIA_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregC1TP">
+	<summary>
+Control divPregC1TP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.T2A_TP_PAUTA_TABLA">
+	<summary>
+Control T2A_TP_PAUTA_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregC2TP">
+	<summary>
+Control divPregC2TP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.T2B_TP_PAUTA_TABLA">
+	<summary>
+Control T2B_TP_PAUTA_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregD1TP">
+	<summary>
+Control divPregD1TP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_INSTRUCCION">
+	<summary>
+Control rec_T2_TP_INSTRUCCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.divPregDTP">
+	<summary>
+Control divPregDTP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_APDJE_LOGRADO">
+	<summary>
+Control rec_T2_TP_APDJE_LOGRADO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_T2_TP_APDJE_NO_LOGRADO">
+	<summary>
+Control rec_T2_TP_APDJE_NO_LOGRADO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_ID_PERIODO">
+	<summary>
+Control rec_ID_PERIODO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_RUT_DOCENTE">
+	<summary>
+Control rec_RUT_DOCENTE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_ID_EVALUACION">
+	<summary>
+Control rec_ID_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.boRegistryMode">
+	<summary>
+Control boRegistryMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.MyRowstamp">
+	<summary>
+Control MyRowstamp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_NOMBRE_TABLA">
+	<summary>
+Control rec_NOMBRE_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_NOMBRE_CAMPO">
+	<summary>
+Control rec_NOMBRE_CAMPO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_ID_TABLA">
+	<summary>
+Control rec_ID_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.rec_ID_DOCUMENTO">
+	<summary>
+Control rec_ID_DOCUMENTO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.DesEsp">
+	<summary>
+Control DesEsp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.DesEspWidth">
+	<summary>
+Control DesEspWidth.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.DesEspHeight">
+	<summary>
+Control DesEspHeight.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.acceso">
+	<summary>
+Control acceso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.Id_Aplicacion">
+	<summary>
+Control Id_Aplicacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea2.Cod_Nivel">
+	<summary>
+Control Cod_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.formPrincipal">
+	<summary>
+Control formPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.divEncabezado">
+	<summary>
+Control divEncabezado.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.imgPortada">
+	<summary>
+Control imgPortada.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.divAyuda">
+	<summary>
+Control divAyuda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.divMenu">
+	<summary>
+Control divMenu.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Ayuda.MensajeError">
+	<summary>
+Control MensajeError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.label_bienvenido">
+	<summary>
+Control label_bienvenido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.label_evidencia">
+	<summary>
+Control label_evidencia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.AE">
+	<summary>
+Control AE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.T1">
+	<summary>
+Control T1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.T2">
+	<summary>
+Control T2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.T3">
+	<summary>
+Control T3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.T4">
+	<summary>
+Control T4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.T5">
+	<summary>
+Control T5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btn_manual_ae">
+	<summary>
+Control btn_manual_ae.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btn_avance_ae">
+	<summary>
+Control btn_avance_ae.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btn_manual_pf">
+	<summary>
+Control btn_manual_pf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btn_obj_curr">
+	<summary>
+Control btn_obj_curr.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btn_avance_pf">
+	<summary>
+Control btn_avance_pf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.banner1">
+	<summary>
+Control banner1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.banner2">
+	<summary>
+Control banner2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.tdBtnInformeCopia">
+	<summary>
+Control tdBtnInformeCopia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btnInformeCopia">
+	<summary>
+Control btnInformeCopia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.tdBtnAutorizacion">
+	<summary>
+Control tdBtnAutorizacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btnFormAutorizacion">
+	<summary>
+Control btnFormAutorizacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.tdBtnAyuda">
+	<summary>
+Control tdBtnAyuda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btn_ayuda">
+	<summary>
+Control btn_ayuda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.lblformAutor_Fecha">
+	<summary>
+Control lblformAutor_Fecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.lblformAutor_Mes">
+	<summary>
+Control lblformAutor_Mes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.lblformAutor_Nombre">
+	<summary>
+Control lblformAutor_Nombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.lblformAutor_Rut">
+	<summary>
+Control lblformAutor_Rut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.rdAutorizo">
+	<summary>
+Control rdAutorizo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.rdNoAutorizo">
+	<summary>
+Control rdNoAutorizo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btnContinuar">
+	<summary>
+Control btnContinuar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.btnDescargaPDF">
+	<summary>
+Control btnDescargaPDF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.LISTA_CAMPOS_SELECT">
+	<summary>
+Control LISTA_CAMPOS_SELECT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.LISTA_CAMPOS_FORMATOS">
+	<summary>
+Control LISTA_CAMPOS_FORMATOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.LISTA_CAMPOS_LARGOS">
+	<summary>
+Control LISTA_CAMPOS_LARGOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.LISTA_CAMPOS_ALINEACION">
+	<summary>
+Control LISTA_CAMPOS_ALINEACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.iCurrentRow">
+	<summary>
+Control iCurrentRow.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.iLinkColum">
+	<summary>
+Control iLinkColum.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.stRefrescarBoset">
+	<summary>
+Control stRefrescarBoset.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.stPreFilter">
+	<summary>
+Control stPreFilter.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.stMode">
+	<summary>
+Control stMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.iTimeOut">
+	<summary>
+Control iTimeOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.stServerPageLoadError">
+	<summary>
+Control stServerPageLoadError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.stReturnURL">
+	<summary>
+Control stReturnURL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.onDialog">
+	<summary>
+Control onDialog.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.primeraVez">
+	<summary>
+Control primeraVez.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.primeraVezMod">
+	<summary>
+Control primeraVezMod.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.manual_PF_Cli">
+	<summary>
+Control manual_PF_Cli.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.manual_PF_Serv">
+	<summary>
+Control manual_PF_Serv.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.manual_AE_Cli">
+	<summary>
+Control manual_AE_Cli.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.manual_AE_Serv">
+	<summary>
+Control manual_AE_Serv.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.Obj_curr_Cli">
+	<summary>
+Control Obj_curr_Cli.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.Obj_curr_Serv">
+	<summary>
+Control Obj_curr_Serv.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.nivel">
+	<summary>
+Control nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.C1_1">
+	<summary>
+Control C1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.C1_2">
+	<summary>
+Control C1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.C2_1">
+	<summary>
+Control C2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.C2_2">
+	<summary>
+Control C2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.Art_70">
+	<summary>
+Control Art_70.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.idEvaluacion">
+	<summary>
+Control idEvaluacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.uso_datos">
+	<summary>
+Control uso_datos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.mostrarInfoCierrePF">
+	<summary>
+Control mostrarInfoCierrePF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.MostrarAlertaCierrePortafolio">
+	<summary>
+Control MostrarAlertaCierrePortafolio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.MostrarFormAutorizacion">
+	<summary>
+Control MostrarFormAutorizacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.MostarBotonFormulario">
+	<summary>
+Control MostarBotonFormulario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Home.MostrarBotonCopia">
+	<summary>
+Control MostrarBotonCopia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.divDetalle">
+	<summary>
+Control divDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_1_1">
+	<summary>
+Control rec_AE_P1_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_1_2">
+	<summary>
+Control rec_AE_P1_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_1_3">
+	<summary>
+Control rec_AE_P1_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_1_4">
+	<summary>
+Control rec_AE_P1_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_2_1">
+	<summary>
+Control rec_AE_P1_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_2_2">
+	<summary>
+Control rec_AE_P1_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_2_3">
+	<summary>
+Control rec_AE_P1_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_2_4">
+	<summary>
+Control rec_AE_P1_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_3_1">
+	<summary>
+Control rec_AE_P1_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_3_2">
+	<summary>
+Control rec_AE_P1_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_3_3">
+	<summary>
+Control rec_AE_P1_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_3_4">
+	<summary>
+Control rec_AE_P1_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_4_1">
+	<summary>
+Control rec_AE_P1_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_4_2">
+	<summary>
+Control rec_AE_P1_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_4_3">
+	<summary>
+Control rec_AE_P1_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_4_4">
+	<summary>
+Control rec_AE_P1_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1">
+	<summary>
+Control rec_AE_P1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_1_1">
+	<summary>
+Control rec_AE_P2_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_1_2">
+	<summary>
+Control rec_AE_P2_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_1_3">
+	<summary>
+Control rec_AE_P2_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_1_4">
+	<summary>
+Control rec_AE_P2_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_2_1">
+	<summary>
+Control rec_AE_P2_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_2_2">
+	<summary>
+Control rec_AE_P2_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_2_3">
+	<summary>
+Control rec_AE_P2_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_2_4">
+	<summary>
+Control rec_AE_P2_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_3_1">
+	<summary>
+Control rec_AE_P2_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_3_2">
+	<summary>
+Control rec_AE_P2_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_3_3">
+	<summary>
+Control rec_AE_P2_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_3_4">
+	<summary>
+Control rec_AE_P2_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_4_1">
+	<summary>
+Control rec_AE_P2_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_4_2">
+	<summary>
+Control rec_AE_P2_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_4_3">
+	<summary>
+Control rec_AE_P2_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_4_4">
+	<summary>
+Control rec_AE_P2_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2">
+	<summary>
+Control rec_AE_P2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_1_1">
+	<summary>
+Control rec_AE_P3_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_1_2">
+	<summary>
+Control rec_AE_P3_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_1_3">
+	<summary>
+Control rec_AE_P3_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_1_4">
+	<summary>
+Control rec_AE_P3_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_2_1">
+	<summary>
+Control rec_AE_P3_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_2_2">
+	<summary>
+Control rec_AE_P3_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_2_3">
+	<summary>
+Control rec_AE_P3_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_2_4">
+	<summary>
+Control rec_AE_P3_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_3_1">
+	<summary>
+Control rec_AE_P3_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_3_2">
+	<summary>
+Control rec_AE_P3_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_3_3">
+	<summary>
+Control rec_AE_P3_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_3_4">
+	<summary>
+Control rec_AE_P3_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_4_1">
+	<summary>
+Control rec_AE_P3_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_4_2">
+	<summary>
+Control rec_AE_P3_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_4_3">
+	<summary>
+Control rec_AE_P3_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_4_4">
+	<summary>
+Control rec_AE_P3_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3">
+	<summary>
+Control rec_AE_P3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_1_1">
+	<summary>
+Control rec_AE_P4_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_1_2">
+	<summary>
+Control rec_AE_P4_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_1_3">
+	<summary>
+Control rec_AE_P4_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_1_4">
+	<summary>
+Control rec_AE_P4_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_2_1">
+	<summary>
+Control rec_AE_P4_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_2_2">
+	<summary>
+Control rec_AE_P4_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_2_3">
+	<summary>
+Control rec_AE_P4_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_2_4">
+	<summary>
+Control rec_AE_P4_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_3_1">
+	<summary>
+Control rec_AE_P4_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_3_2">
+	<summary>
+Control rec_AE_P4_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_3_3">
+	<summary>
+Control rec_AE_P4_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_3_4">
+	<summary>
+Control rec_AE_P4_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_4_1">
+	<summary>
+Control rec_AE_P4_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_4_2">
+	<summary>
+Control rec_AE_P4_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_4_3">
+	<summary>
+Control rec_AE_P4_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_4_4">
+	<summary>
+Control rec_AE_P4_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4">
+	<summary>
+Control rec_AE_P4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_1_1">
+	<summary>
+Control rec_AE_P5_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_1_2">
+	<summary>
+Control rec_AE_P5_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_1_3">
+	<summary>
+Control rec_AE_P5_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_1_4">
+	<summary>
+Control rec_AE_P5_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_2_1">
+	<summary>
+Control rec_AE_P5_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_2_2">
+	<summary>
+Control rec_AE_P5_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_2_3">
+	<summary>
+Control rec_AE_P5_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_2_4">
+	<summary>
+Control rec_AE_P5_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_3_1">
+	<summary>
+Control rec_AE_P5_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_3_2">
+	<summary>
+Control rec_AE_P5_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_3_3">
+	<summary>
+Control rec_AE_P5_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_3_4">
+	<summary>
+Control rec_AE_P5_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_4_1">
+	<summary>
+Control rec_AE_P5_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_4_2">
+	<summary>
+Control rec_AE_P5_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_4_3">
+	<summary>
+Control rec_AE_P5_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_4_4">
+	<summary>
+Control rec_AE_P5_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5">
+	<summary>
+Control rec_AE_P5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_1_1">
+	<summary>
+Control rec_AE_P6_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_1_2">
+	<summary>
+Control rec_AE_P6_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_1_3">
+	<summary>
+Control rec_AE_P6_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_1_4">
+	<summary>
+Control rec_AE_P6_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_2_1">
+	<summary>
+Control rec_AE_P6_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_2_2">
+	<summary>
+Control rec_AE_P6_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_2_3">
+	<summary>
+Control rec_AE_P6_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_2_4">
+	<summary>
+Control rec_AE_P6_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_3_1">
+	<summary>
+Control rec_AE_P6_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_3_2">
+	<summary>
+Control rec_AE_P6_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_3_3">
+	<summary>
+Control rec_AE_P6_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_3_4">
+	<summary>
+Control rec_AE_P6_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_4_1">
+	<summary>
+Control rec_AE_P6_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_4_2">
+	<summary>
+Control rec_AE_P6_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_4_3">
+	<summary>
+Control rec_AE_P6_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_4_4">
+	<summary>
+Control rec_AE_P6_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6">
+	<summary>
+Control rec_AE_P6.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_1_1">
+	<summary>
+Control rec_AE_P7_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_1_2">
+	<summary>
+Control rec_AE_P7_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_1_3">
+	<summary>
+Control rec_AE_P7_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_1_4">
+	<summary>
+Control rec_AE_P7_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_2_1">
+	<summary>
+Control rec_AE_P7_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_2_2">
+	<summary>
+Control rec_AE_P7_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_2_3">
+	<summary>
+Control rec_AE_P7_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_2_4">
+	<summary>
+Control rec_AE_P7_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_3_1">
+	<summary>
+Control rec_AE_P7_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_3_2">
+	<summary>
+Control rec_AE_P7_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_3_3">
+	<summary>
+Control rec_AE_P7_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_3_4">
+	<summary>
+Control rec_AE_P7_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_4_1">
+	<summary>
+Control rec_AE_P7_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_4_2">
+	<summary>
+Control rec_AE_P7_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_4_3">
+	<summary>
+Control rec_AE_P7_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_4_4">
+	<summary>
+Control rec_AE_P7_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7">
+	<summary>
+Control rec_AE_P7.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_1_1">
+	<summary>
+Control rec_AE_P8_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_1_2">
+	<summary>
+Control rec_AE_P8_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_1_3">
+	<summary>
+Control rec_AE_P8_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_1_4">
+	<summary>
+Control rec_AE_P8_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_2_1">
+	<summary>
+Control rec_AE_P8_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_2_2">
+	<summary>
+Control rec_AE_P8_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_2_3">
+	<summary>
+Control rec_AE_P8_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_2_4">
+	<summary>
+Control rec_AE_P8_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_3_1">
+	<summary>
+Control rec_AE_P8_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_3_2">
+	<summary>
+Control rec_AE_P8_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_3_3">
+	<summary>
+Control rec_AE_P8_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_3_4">
+	<summary>
+Control rec_AE_P8_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_4_1">
+	<summary>
+Control rec_AE_P8_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_4_2">
+	<summary>
+Control rec_AE_P8_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_4_3">
+	<summary>
+Control rec_AE_P8_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_4_4">
+	<summary>
+Control rec_AE_P8_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8">
+	<summary>
+Control rec_AE_P8.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_1_1">
+	<summary>
+Control rec_AE_P9_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_1_2">
+	<summary>
+Control rec_AE_P9_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_1_3">
+	<summary>
+Control rec_AE_P9_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_1_4">
+	<summary>
+Control rec_AE_P9_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_2_1">
+	<summary>
+Control rec_AE_P9_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_2_2">
+	<summary>
+Control rec_AE_P9_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_2_3">
+	<summary>
+Control rec_AE_P9_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_2_4">
+	<summary>
+Control rec_AE_P9_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_3_1">
+	<summary>
+Control rec_AE_P9_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_3_2">
+	<summary>
+Control rec_AE_P9_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_3_3">
+	<summary>
+Control rec_AE_P9_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_3_4">
+	<summary>
+Control rec_AE_P9_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_4_1">
+	<summary>
+Control rec_AE_P9_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_4_2">
+	<summary>
+Control rec_AE_P9_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_4_3">
+	<summary>
+Control rec_AE_P9_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_4_4">
+	<summary>
+Control rec_AE_P9_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9">
+	<summary>
+Control rec_AE_P9.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_1_1">
+	<summary>
+Control rec_AE_P10_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_1_2">
+	<summary>
+Control rec_AE_P10_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_1_3">
+	<summary>
+Control rec_AE_P10_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_1_4">
+	<summary>
+Control rec_AE_P10_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_2_1">
+	<summary>
+Control rec_AE_P10_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_2_2">
+	<summary>
+Control rec_AE_P10_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_2_3">
+	<summary>
+Control rec_AE_P10_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_2_4">
+	<summary>
+Control rec_AE_P10_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_3_1">
+	<summary>
+Control rec_AE_P10_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_3_2">
+	<summary>
+Control rec_AE_P10_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_3_3">
+	<summary>
+Control rec_AE_P10_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_3_4">
+	<summary>
+Control rec_AE_P10_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_4_1">
+	<summary>
+Control rec_AE_P10_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_4_2">
+	<summary>
+Control rec_AE_P10_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_4_3">
+	<summary>
+Control rec_AE_P10_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_4_4">
+	<summary>
+Control rec_AE_P10_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10">
+	<summary>
+Control rec_AE_P10.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_1_1">
+	<summary>
+Control rec_AE_P11_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_1_2">
+	<summary>
+Control rec_AE_P11_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_1_3">
+	<summary>
+Control rec_AE_P11_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_1_4">
+	<summary>
+Control rec_AE_P11_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_2_1">
+	<summary>
+Control rec_AE_P11_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_2_2">
+	<summary>
+Control rec_AE_P11_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_2_3">
+	<summary>
+Control rec_AE_P11_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_2_4">
+	<summary>
+Control rec_AE_P11_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_3_1">
+	<summary>
+Control rec_AE_P11_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_3_2">
+	<summary>
+Control rec_AE_P11_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_3_3">
+	<summary>
+Control rec_AE_P11_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_3_4">
+	<summary>
+Control rec_AE_P11_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_4_1">
+	<summary>
+Control rec_AE_P11_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_4_2">
+	<summary>
+Control rec_AE_P11_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_4_3">
+	<summary>
+Control rec_AE_P11_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_4_4">
+	<summary>
+Control rec_AE_P11_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11">
+	<summary>
+Control rec_AE_P11.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_1_1">
+	<summary>
+Control rec_AE_P12_1_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_1_2">
+	<summary>
+Control rec_AE_P12_1_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_1_3">
+	<summary>
+Control rec_AE_P12_1_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_1_4">
+	<summary>
+Control rec_AE_P12_1_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_2_1">
+	<summary>
+Control rec_AE_P12_2_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_2_2">
+	<summary>
+Control rec_AE_P12_2_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_2_3">
+	<summary>
+Control rec_AE_P12_2_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_2_4">
+	<summary>
+Control rec_AE_P12_2_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_3_1">
+	<summary>
+Control rec_AE_P12_3_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_3_2">
+	<summary>
+Control rec_AE_P12_3_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_3_3">
+	<summary>
+Control rec_AE_P12_3_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_3_4">
+	<summary>
+Control rec_AE_P12_3_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_4_1">
+	<summary>
+Control rec_AE_P12_4_1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_4_2">
+	<summary>
+Control rec_AE_P12_4_2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_4_3">
+	<summary>
+Control rec_AE_P12_4_3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_4_4">
+	<summary>
+Control rec_AE_P12_4_4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12">
+	<summary>
+Control rec_AE_P12.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_FUND_FORT_CONTEXT">
+	<summary>
+Control rec_AE_FUND_FORT_CONTEXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_FUND_ASP_APOYO">
+	<summary>
+Control rec_AE_FUND_ASP_APOYO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_FUND_CONS_CONTEXT">
+	<summary>
+Control rec_AE_FUND_CONS_CONTEXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_ID_PERIODO">
+	<summary>
+Control rec_ID_PERIODO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_RUT_DOCENTE">
+	<summary>
+Control rec_RUT_DOCENTE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_ID_EVALUACION">
+	<summary>
+Control rec_ID_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.boRegistryMode">
+	<summary>
+Control boRegistryMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.MyRowstamp">
+	<summary>
+Control MyRowstamp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P1_T">
+	<summary>
+Control rec_AE_P1_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P2_T">
+	<summary>
+Control rec_AE_P2_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P3_T">
+	<summary>
+Control rec_AE_P3_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P4_T">
+	<summary>
+Control rec_AE_P4_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P5_T">
+	<summary>
+Control rec_AE_P5_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P6_T">
+	<summary>
+Control rec_AE_P6_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P7_T">
+	<summary>
+Control rec_AE_P7_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P8_T">
+	<summary>
+Control rec_AE_P8_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P9_T">
+	<summary>
+Control rec_AE_P9_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P10_T">
+	<summary>
+Control rec_AE_P10_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P11_T">
+	<summary>
+Control rec_AE_P11_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_AE_P12_T">
+	<summary>
+Control rec_AE_P12_T.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_NOMBRE_TABLA">
+	<summary>
+Control rec_NOMBRE_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.rec_ID_TABLA">
+	<summary>
+Control rec_ID_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.acceso">
+	<summary>
+Control acceso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Autoevaluacion.Cod_Nivel">
+	<summary>
+Control Cod_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:PlataformaDocente.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:PlataformaDocente.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:PlataformaDocente.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:PlataformaDocente.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:PlataformaDocente.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:PlataformaDocente.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea1.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Evento inicial.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea1.ComboNivel">
+	<summary>
+ Metodo que rellena los combobox segun nivel del docente y segun asignatura especifica , rellena y muestra uno extra
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea1.MostrarDesempenoEsperado">
+	<summary>
+ Metodo que trae una imagen para mostrar en el desempeño esperado.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea1.CargarRegistro">
+	<summary>
+ Metodo CargarRegistro permite cargar los datos en pantalla.
+ </summary>
+	<returns>Retorna un verdadero o Falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea1.SaveData(System.String,Solex.Base.Comun.NameValue[])">
+	<summary>
+ WebMethod que permite guardar la información en el servidor.
+ </summary>
+	<param name="mode">Recibe el modo.</param>
+	<param name="formVars">Recibe las variables del formulario.</param>
+	<returns>Retorna un JSON con la respuesta.</returns>
+	<remarks></remarks>
+</member><member name="F:PlataformaDocente.Tarea1.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.desempeno">
+	<summary>
+Control desempeno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.divDetalle">
+	<summary>
+Control divDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.tb_T1_ASIGNATURA">
+	<summary>
+Control tb_T1_ASIGNATURA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_ASIGNATURA_EAEMCN">
+	<summary>
+Control rec_T1_ASIGNATURA_EAEMCN.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_CURSO">
+	<summary>
+Control rec_T1_CURSO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_OBJ_CURR_TXT">
+	<summary>
+Control rec_T1_OBJ_CURR_TXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_1_FECHA">
+	<summary>
+Control rec_T1_1_FECHA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_1_DURACION">
+	<summary>
+Control rec_T1_1_DURACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_1_OBJETIVOS">
+	<summary>
+Control rec_T1_1_OBJETIVOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_1_DESCRIPCION">
+	<summary>
+Control rec_T1_1_DESCRIPCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_2_FECHA">
+	<summary>
+Control rec_T1_2_FECHA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_2_DURACION">
+	<summary>
+Control rec_T1_2_DURACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_2_OBJETIVOS">
+	<summary>
+Control rec_T1_2_OBJETIVOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_2_DESCRIPCION">
+	<summary>
+Control rec_T1_2_DESCRIPCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_3_FECHA">
+	<summary>
+Control rec_T1_3_FECHA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_3_DURACION">
+	<summary>
+Control rec_T1_3_DURACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_3_OBJETIVOS">
+	<summary>
+Control rec_T1_3_OBJETIVOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_3_DESCRIPCION">
+	<summary>
+Control rec_T1_3_DESCRIPCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.divDetalleTP">
+	<summary>
+Control divDetalleTP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_CURSO">
+	<summary>
+Control rec_T1_TP_CURSO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_MODULO">
+	<summary>
+Control rec_T1_TP_MODULO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_OBJ_APRE_TXT">
+	<summary>
+Control rec_T1_TP_OBJ_APRE_TXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_APRE_ESP_TXT">
+	<summary>
+Control rec_T1_TP_APRE_ESP_TXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_CRITE_ACTIV_TXT">
+	<summary>
+Control rec_T1_TP_CRITE_ACTIV_TXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_1_FECHA">
+	<summary>
+Control rec_T1_TP_1_FECHA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_1_DURACION">
+	<summary>
+Control rec_T1_TP_1_DURACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_1_OBJETIVOS">
+	<summary>
+Control rec_T1_TP_1_OBJETIVOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_1_DESCRIPCION">
+	<summary>
+Control rec_T1_TP_1_DESCRIPCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_2_FECHA">
+	<summary>
+Control rec_T1_TP_2_FECHA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_2_DURACION">
+	<summary>
+Control rec_T1_TP_2_DURACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_2_OBJETIVOS">
+	<summary>
+Control rec_T1_TP_2_OBJETIVOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_2_DESCRIPCION">
+	<summary>
+Control rec_T1_TP_2_DESCRIPCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_3_FECHA">
+	<summary>
+Control rec_T1_TP_3_FECHA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_3_DURACION">
+	<summary>
+Control rec_T1_TP_3_DURACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_3_OBJETIVOS">
+	<summary>
+Control rec_T1_TP_3_OBJETIVOS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_T1_TP_3_DESCRIPCION">
+	<summary>
+Control rec_T1_TP_3_DESCRIPCION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_ID_PERIODO">
+	<summary>
+Control rec_ID_PERIODO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_RUT_DOCENTE">
+	<summary>
+Control rec_RUT_DOCENTE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_ID_EVALUACION">
+	<summary>
+Control rec_ID_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.boRegistryMode">
+	<summary>
+Control boRegistryMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.MyRowstamp">
+	<summary>
+Control MyRowstamp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.DesEsp">
+	<summary>
+Control DesEsp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.DesEspWidth">
+	<summary>
+Control DesEspWidth.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.DesEspHeight">
+	<summary>
+Control DesEspHeight.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_NOMBRE_TABLA">
+	<summary>
+Control rec_NOMBRE_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.rec_ID_TABLA">
+	<summary>
+Control rec_ID_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.acceso">
+	<summary>
+Control acceso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.Cod_Subsector">
+	<summary>
+Control Cod_Subsector.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea1.Cod_Nivel">
+	<summary>
+Control Cod_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.label_bienvenido">
+	<summary>
+Control label_bienvenido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.label_evidencia">
+	<summary>
+Control label_evidencia.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.AE">
+	<summary>
+Control AE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.T1">
+	<summary>
+Control T1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.T2">
+	<summary>
+Control T2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.T3">
+	<summary>
+Control T3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.T4">
+	<summary>
+Control T4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.T5">
+	<summary>
+Control T5.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.divApplication">
+	<summary>
+Control divApplication.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.tipo_ficha">
+	<summary>
+Control tipo_ficha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.Art_70">
+	<summary>
+Control Art_70.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.idEvaluacion">
+	<summary>
+Control idEvaluacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Fichas.iTimeOut">
+	<summary>
+Control iTimeOut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.formPrincipal">
+	<summary>
+Control formPrincipal.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.txtRut">
+	<summary>
+Control txtRut.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.btnIngresar">
+	<summary>
+Control btnIngresar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.MensajeError">
+	<summary>
+Control MensajeError.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.pas">
+	<summary>
+Control pas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.primeraVez">
+	<summary>
+Control primeraVez.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Seleccionar.rut_valido">
+	<summary>
+Control rut_valido.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Inicio.frmInicio">
+	<summary>
+Control frmInicio.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Inicio.id_perfil">
+	<summary>
+Control id_perfil.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Inicio.primeraVez">
+	<summary>
+Control primeraVez.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:PlataformaDocente.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:PlataformaDocente.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:PlataformaDocente.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="F:PlataformaDocente.AvancePortafolio.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.Mostrar_Avance_PDF_PF">
+	<summary>
+Control Mostrar_Avance_PDF_PF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.TablaAvancePF">
+	<summary>
+Control TablaAvancePF.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.btnGuardar">
+	<summary>
+Control btnGuardar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.btnImprimir">
+	<summary>
+Control btnImprimir.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.btnGuardar2">
+	<summary>
+Control btnGuardar2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.btnImprimir2">
+	<summary>
+Control btnImprimir2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.AvancePortafolio.Rut_Docente">
+	<summary>
+Control Rut_Docente.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:PlataformaDocente.Tarea2.MostrarDesempenoEsperado">
+	<summary>
+ Metodo que trae una imagen para mostrar en el desempeño esperado.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea2.CargarRegistro">
+	<summary>
+ Metodo CargarRegistro permite cargar los datos en pantalla.
+ </summary>
+	<returns>Retorna un verdadero o Falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea2.SaveData(System.String,Solex.Base.Comun.NameValue[])">
+	<summary>
+ WebMethod que permite guardar la información en el servidor.
+ </summary>
+	<param name="mode">Recibe el modo.</param>
+	<param name="formVars">Recibe las variables del formulario.</param>
+	<returns>Retorna un JSON con la respuesta.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea2.cargarTabla(System.String,System.Int32,System.String)">
+	<summary>
+ WebMethod que permite cargar la tabla con los datos.
+ </summary>
+	<returns>Retorna un JSon con la tabla.</returns>
+	<remarks></remarks>
+</member><member name="F:PlataformaDocente.Tarea5.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.desempeno">
+	<summary>
+Control desempeno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.divDetalle">
+	<summary>
+Control divDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_T5_TC_GENERAL">
+	<summary>
+Control rec_T5_TC_GENERAL.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_T5_TC_MOTIVACION">
+	<summary>
+Control rec_T5_TC_MOTIVACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_T5_TC_EXPERIENCIA">
+	<summary>
+Control rec_T5_TC_EXPERIENCIA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.T5_TC_TABLA">
+	<summary>
+Control T5_TC_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_T5_TC_BALANCE">
+	<summary>
+Control rec_T5_TC_BALANCE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_ID_PERIODO">
+	<summary>
+Control rec_ID_PERIODO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_RUT_DOCENTE">
+	<summary>
+Control rec_RUT_DOCENTE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_ID_EVALUACION">
+	<summary>
+Control rec_ID_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.boRegistryMode">
+	<summary>
+Control boRegistryMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.MyRowstamp">
+	<summary>
+Control MyRowstamp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_NOMBRE_TABLA">
+	<summary>
+Control rec_NOMBRE_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_ID_TABLA">
+	<summary>
+Control rec_ID_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_NOMBRE_CAMPO">
+	<summary>
+Control rec_NOMBRE_CAMPO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.rec_ID_DOCUMENTO">
+	<summary>
+Control rec_ID_DOCUMENTO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.DesEsp">
+	<summary>
+Control DesEsp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.DesEspWidth">
+	<summary>
+Control DesEspWidth.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.DesEspHeight">
+	<summary>
+Control DesEspHeight.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.Cod_Subsector">
+	<summary>
+Control Cod_Subsector.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.acceso">
+	<summary>
+Control acceso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea5.Id_Aplicacion">
+	<summary>
+Control Id_Aplicacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:PlataformaDocente.Tarea3.MostrarDesempenoEsperado">
+	<summary>
+ Metodo que trae una imagen para mostrar en el desempeño esperado.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea3.CargarRegistro">
+	<summary>
+ Metodo CargarRegistro permite cargar los datos en pantalla.
+ </summary>
+	<returns>Retorna un verdadero o Falso.</returns>
+	<remarks></remarks>
+</member><member name="M:PlataformaDocente.Tarea3.SaveData(System.String,Solex.Base.Comun.NameValue[])">
+	<summary>
+ WebMethod que permite guardar la información en el servidor.
+ </summary>
+	<param name="mode">Recibe el modo.</param>
+	<param name="formVars">Recibe las variables del formulario.</param>
+	<returns>Retorna un JSON con la respuesta.</returns>
+	<remarks></remarks>
+</member><member name="F:PlataformaDocente.Tarea4.frmRegistry">
+	<summary>
+Control frmRegistry.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.desempeno">
+	<summary>
+Control desempeno.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.divDetalle">
+	<summary>
+Control divDetalle.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.tb_T4_ASIGNATURA">
+	<summary>
+Control tb_T4_ASIGNATURA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_ASIGNATURA_EAEMCN">
+	<summary>
+Control rec_T4_ASIGNATURA_EAEMCN.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_CURSO">
+	<summary>
+Control rec_T4_CURSO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_OB_CURRICULAR">
+	<summary>
+Control rec_T4_OB_CURRICULAR.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_OB_CLASE">
+	<summary>
+Control rec_T4_OB_CLASE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_SITUACION">
+	<summary>
+Control rec_T4_SITUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.TablaRecursos">
+	<summary>
+Control TablaRecursos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.divDetalleTP">
+	<summary>
+Control divDetalleTP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_CURSO">
+	<summary>
+Control rec_T4_TP_CURSO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_MODULO">
+	<summary>
+Control rec_T4_TP_MODULO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_OB_CURRICULAR">
+	<summary>
+Control rec_T4_TP_OB_CURRICULAR.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_APREN_ESP_TXT">
+	<summary>
+Control rec_T4_TP_APREN_ESP_TXT.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_CRITE_CLASE">
+	<summary>
+Control rec_T4_TP_CRITE_CLASE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_OB_CLASE">
+	<summary>
+Control rec_T4_TP_OB_CLASE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_CONTEX_CLASE">
+	<summary>
+Control rec_T4_TP_CONTEX_CLASE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_T4_TP_SITUACION">
+	<summary>
+Control rec_T4_TP_SITUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.TablaRecursosTP">
+	<summary>
+Control TablaRecursosTP.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_ID_PERIODO">
+	<summary>
+Control rec_ID_PERIODO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_RUT_DOCENTE">
+	<summary>
+Control rec_RUT_DOCENTE.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_ID_EVALUACION">
+	<summary>
+Control rec_ID_EVALUACION.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.boRegistryMode">
+	<summary>
+Control boRegistryMode.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.ErrorMessage">
+	<summary>
+Control ErrorMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.MyRowstamp">
+	<summary>
+Control MyRowstamp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.Cod_Nivel">
+	<summary>
+Control Cod_Nivel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_NOMBRE_TABLA">
+	<summary>
+Control rec_NOMBRE_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_ID_TABLA">
+	<summary>
+Control rec_ID_TABLA.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_NOMBRE_CAMPO">
+	<summary>
+Control rec_NOMBRE_CAMPO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.rec_ID_DOCUMENTO">
+	<summary>
+Control rec_ID_DOCUMENTO.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.DesEsp">
+	<summary>
+Control DesEsp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.DesEspWidth">
+	<summary>
+Control DesEspWidth.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.DesEspHeight">
+	<summary>
+Control DesEspHeight.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.Cod_Subsector">
+	<summary>
+Control Cod_Subsector.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.acceso">
+	<summary>
+Control acceso.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PlataformaDocente.Tarea4.Id_Aplicacion">
+	<summary>
+Control Id_Aplicacion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
